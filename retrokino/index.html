@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<title>RetroKino</title>
+	<meta charset="utf-8">
+
+	<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+	<nav id="main-nav">
+		<div class="container">
+			<ul>
+				<li><a href="#main-header">Retro<span>Kino</span></a></li>
+				<li><a href="#news">Novinky</a></li>
+				<li><a href="#schedule">Program</a></li>
+				<li><a href="#purchase">Nákup vstupenek</a></li>
+				<li><a href="#contact">Kontakt</a></li>
+			</ul>
+		</div>
+	</nav>
+	<header id="main-header">
+		<img id="header-logo" src="images/header-logo.svg" alt="RetroKino logo">
+	</header>
+	<main>
+		<section id="news" class="dark-section">
+			<div class="container">
+				<h2>Novinky</h2>
+				<h3>Právě uvádíme původní trilogii Star Wars v originálním znění i s dabingem.</h3>
+				<img src="images/movies/01-sw4.jpg" alt="Star Wars – Epizoda IV – Nová naděje">
+				<img src="images/movies/02-sw5.jpg" alt="Star Wars – Epizoda V – Impérium vrací úder">
+				<img src="images/movies/03-sw6.jpg" alt="Star Wars – Epizoda VI – Návrat Jediho">
+			</div>
+		</section>
+		<section id="schedule">
+			<div class="container">
+				<h2>Program</h2>
+				<h3>Máte rádi klasické filmy? Vyberte si z naší široké nabídky.</h3>
+				<table id="schedule-table">
+					<tr>
+						<th class="empty"></th>
+						<th>Po</th>
+						<th>Út</th>
+						<th>St</th>
+						<th>Čt</th>
+						<th>Pá</th>
+						<th>So</th>
+						<th>Ne</th>
+					</tr>
+					<tr>
+						<td class="movie-name">Star Wars: Nová naděje</td>
+						<td>18:00</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>18:00</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="movie-name">Star Wars: Impérium vrací úder</td>
+						<td></td>
+						<td>18:00</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>20:30</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="movie-name">Star Wars: Návrat Jediho</td>
+						<td></td>
+						<td></td>
+						<td>18:00</td>
+						<td></td>
+						<td></td>
+						<td>23:00</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="movie-name">Star Wars: ET Mimozemšťan</td>
+						<td colspan="7" class="cancelled">– zrušeno -</td>
+					</tr>
+					<tr>
+						<td class="movie-name">Vetřelec</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>20:30</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="movie-name">Titanic</td>
+						<td></td>
+						<td></td>
+						<td>20:30</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>20:30</td>
+					</tr>
+					<tr>
+						<td class="movie-name">Vesničko má středisková</td>
+						<td>16:00</td>
+						<td></td>
+						<td></td>
+						<td class="unavailable">18:00</td>
+						<td>16:00</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="movie-name">Vrchní prchni</td>
+						<td></td>
+						<td></td>
+						<td>16:00</td>
+						<td></td>
+						<td>18:00</td>
+						<td class="unavailable">16:00</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="movie-name">Indiana Jones a dobyvatelé ztracené archy</td>
+						<td></td>
+						<td>20:30</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="movie-name">Návrat do budoucnosti</td>
+						<td>20:30</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>18:00</td>
+					</tr>
+				</table>
+				<p class="note">* Červeně označené termíny jsou již bohužel vyprodané.</p>
+			</div>
+		</section>
+		<section id="purchase" class="dark-section">
+			<div class="container">
+				<h2>Nákup vstupenek</h2>
+				<h3>Nenechte si vyfouknout své oblíbené místo a vstupenku si rezervujte.</h3>
+				<div id="tel-number">+420 123 456 789</div>
+				<p class="note">Dostupné denně od 15:00 do 23:00</p>
+			</div>
+		</section>
+		<div id="info-graphics">
+			<div class="container">
+				<img src="images/ico01.svg" alt="RetroKino Festival">
+				<img src="images/ico02.svg" alt="RetroKino Vítejte">
+				<img src="images/ico03.svg" alt="RetroKino MovieTime">
+			</div>
+		</div>
+		<section id="contact" class="dark-section">
+			<div class="container">
+				<h2>Kontakt</h2>
+				<h3>Přijďte se podívat na film nebo nás jen pozdravit.</h3>
+				<div id="business-card">
+					<h4>Učebna 47</h4>
+					<p id="adress-name">SPŠ Purkyňova</p>
+					<p id="adress">Purkyňova 97, Brno, 612 00</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="main-footer">
+		<div class="container">
+			<p id="copyright">&copy; <strong>Petr Šavelka</strong></p>
+			<p>Autorem některých použitých grafických prvků je <a href="http://www.freepik.com" target="_blank">macrovector / Freepik</a>.</p>
+			<p>Tento web byl vytvořen pouze pro účely výuky webdesignu.</p>
+		</div>
+	</footer>
+</body>
+</html>

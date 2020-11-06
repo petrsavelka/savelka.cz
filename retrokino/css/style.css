@@ -1,0 +1,228 @@
+/* CSS */
+
+body {
+	font-family: 'Open sans', sans-serif;
+	margin: 0;
+	line-height: 1.6em;
+}
+
+#main-nav {
+	background-color: #faa21a;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#main-nav ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#main-nav ul li {
+	display: inline-block;
+	line-height: 80px;
+}
+
+#main-nav ul li a {
+	display: block;
+	color: rgba(0, 0, 0, .87);
+	text-decoration: none;
+	height: 80px;
+	padding: 0 2rem;
+
+}
+
+#main-nav ul li a:hover {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+#main-nav ul li a span {
+	color: rgba(0, 0, 0, .5);
+}
+
+.container {
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 0 32px;
+	box-sizing: border-box;
+}
+
+#main-header {
+	height: 750px;
+	box-sizing: border-box;
+	background-image: url('../images/header-background.jpg');
+	background-size: cover;
+	background-position: center;
+	padding-top: 300px;
+}
+
+#header-logo {
+	display: block;
+	width: 600px;
+	margin: auto;
+}
+
+.dark-section {
+	background-color: #e6e6e6;
+}
+
+h2 {
+	text-align: center;
+	font-size: 3rem;
+	color: rgba(0, 0, 0, .87);
+	font-family: 'Zilla Slab', serif;
+	margin: 0;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.25rem;
+	font-family: 'Zilla Slab', serif;
+	color: rgba(0, 0, 0, .4);
+	font-weight: 400;
+	margin: 2rem 0;
+}
+
+main > section,
+#info-graphics {
+	padding: 5rem 0;
+	text-align: center;
+}
+
+#main-footer {
+	background-color: #303030;
+}
+
+#news img {
+	margin: 2rem 1rem;
+}
+
+#schedule-table {
+	margin: 3rem auto;
+	width: 100%;
+}
+
+#schedule-table th,
+#schedule-table td {
+	padding: 1rem;
+	text-align: center;
+	font-size: .935rem;
+}
+
+#schedule-table th {
+	background-color: #303030;
+	color: #fff;
+}
+
+#schedule-table th.empty {
+	background-color: transparent;
+}
+
+#schedule-table .movie-name {
+	background-color: #faa21a;
+	text-align: left;
+	color: rgba(0, 0, 0, .87);
+	font-weight: 700;
+}
+
+#schedule-table td {
+	background-color: #e6e6e6;
+}
+
+#schedule-table td.cancelled {
+	color: rgba(0, 0, 0, .5);
+	font-style: italic;
+}
+
+#schedule-table td.unavailable {
+	color: #fff;
+	background-color: #e65756;
+}
+
+#tel-number {
+	font-size: 2.25rem;
+	font-weight: 700;
+	color: #faa21a;
+	margin-top: 4rem;
+}
+
+.note {
+	margin: 1rem 0;
+	color: rgba(0, 0, 0, .5);
+	font-size: .8125rem;
+	font-style: italic;
+}
+
+#info-graphics img {
+	margin: 0 2rem;
+	width: 200px;
+}
+
+#business-card {
+	margin: 4rem auto 2rem auto;
+	width: 350px;
+	height: 150px;
+	border: 2px dotted rgba(0, 0, 0, .15);
+	padding: 1.5rem;
+	box-sizing: border-box;
+}
+
+#business-card h4 {
+	font-size: 1.5rem;
+	color: #faa21a;
+	margin: 0;
+}
+
+#business-card #adress-name {
+	font-weight: 700;
+	color: rgba(0, 0, 0, .87);
+	font-size: 1.125rem;
+	margin: 1.5rem 0 0 0;
+}
+
+#business-card #adress {
+	color: rgba(0, 0, 0, .5);
+	font-size: 0.9375rem;
+	margin: 0;
+}
+
+#main-footer {
+	padding: 3rem 0 4rem 0;
+}
+
+#main-footer p {
+	color: rgba(255, 255, 255, .5);
+	text-align: center;
+	margin: 0;
+	font-size: .8125rem;
+	font-style: italic;
+}
+
+#main-footer #copyright {
+	font-style: normal;
+	margin-bottom: 1rem;
+	font-size: .875rem;
+}
+
+#main-footer strong,
+#main-footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
